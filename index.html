@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://www.jq22.com/demo/jquerycss3-150601222744/ -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<title>香港浸會大學 HONG KONG BAPTIST UNIVERSITY</title>
+
+<link rel="icon" href="stu.ico" type="image/x-icon"/>
+
+<link rel="stylesheet" href="./normalize.css" type="text/css">
+
+<link rel="stylesheet" href="./jquery.wiper.css" type="text/css">
+
+<link rel="stylesheet" href="./tab_3d.css" type="text/css">
+
+<script src="./jquery.min.js(1).下载"></script>
+
+<script src="./jquery.wiper.js.下载"></script>
+
+<style type="text/css"></style>
+<script>
+
+//---------------wiper------------------
+
+$(function() {
+
+	$("ul#acordion_main").Wiper();
+
+
+
+	//easing: 'linear',
+
+	//easing: 'ease',
+
+	//easing: 'ease-in',
+
+	//easing: 'ease-out',
+
+	//easing: 'ease-in-out',
+
+
+
+	//Demonstration1
+
+	$("ul#inner_wiper").Wiper({
+
+		easing: 'ease-out',
+
+		offset: -1,
+
+		duration: 2000,
+
+		binder: $("#inner_wiper_demo"),
+
+		menuColors: [ '#000000', '#333333', '#666666', '#999999', '#cccccc' ]
+
+	});
+
+
+
+	//Demonstration2
+
+	$("ul#inner_wiper2").Wiper({
+
+		easing: 'ease-out',
+
+		offset: -1,
+
+		duration: 800,
+
+		binder: $("#inner_wiper_demo2"),
+
+		menuColors: [ false, false, '#ffd700', '#adff2f', '#4169e1' ],
+
+	});
+
+});
+
+</script>
+
+<script>
+
+$(function() {
+
+	  $("footer #translation_box .ja").click(function() {
+
+		$(".ja_box").css("display", "block");
+
+		$(".en_box").css("display", "none");
+
+	  });
+
+
+
+	  $("footer #translation_box .en").click(function() {
+
+		$(".ja_box").css("display", "none");
+
+		$(".en_box").css("display", "block");
+
+	  });
+
+	});
+
+	</script>
+
+<script>
+
+window.onload=function(){  
+
+}  
+
+$(document).ready(function(){
+		$(".gtab"+1).mouseenter(function(){
+			$(".gtab"+1).css("font-weight",'1000');
+	 	 });		
+		$(".gtab"+2).mouseenter(function(){
+			$(".gtab"+2).css("font-weight",'1000');
+	 	 });	
+		$(".gtab"+3).mouseenter(function(){
+			$(".gtab"+3).css("font-weight",'1000');
+	 	 });		
+		$(".gtab"+4).mouseenter(function(){
+			$(".gtab"+4).css("font-weight",'1000');
+	 	 });	
+		$(".gtab"+5).mouseenter(function(){
+			$(".gtab"+5).css("font-weight",'1000');
+	 	 });		
+		$(".gtab"+6).mouseenter(function(){
+			$(".gtab"+6).css("font-weight",'1000');
+	 	 });
+		$(".gtab"+7).mouseenter(function(){
+			$(".gtab"+7).css("font-weight",'1000');
+	 	 });		
+
+		$(".gtab"+1).mouseleave(function(){
+			$(".gtab"+1).css("font-weight",'450');
+	 	 });		
+		$(".gtab"+2).mouseleave(function(){
+			$(".gtab"+2).css("font-weight",'450');
+	 	 });	
+		$(".gtab"+3).mouseleave(function(){
+			$(".gtab"+3).css("font-weight",'450');
+	 	 });		
+		$(".gtab"+4).mouseleave(function(){
+			$(".gtab"+4).css("font-weight",'450');
+	 	 });	
+		$(".gtab"+5).mouseleave(function(){
+			$(".gtab"+5).css("font-weight",'450');
+	 	 });		
+		$(".gtab"+6).mouseleave(function(){
+			$(".gtab"+6).css("font-weight",'450');
+	 	 });
+		$(".gtab"+7).mouseleave(function(){
+			$(".gtab"+7).css("font-weight",'450');
+	 	 });
+var pos=$("#wiper_wrap").css("height");
+            document.getElementById("io").onclick=function(){
+                document.getElementById("div1").style.transform="rotate(-45deg)"
+                document.getElementById("div2").style.transform="rotate(-45deg)"
+                document.getElementById("div3").style.transform="rotate(-45deg)"
+                document.getElementById("div4").style.transform="rotate(-45deg)"
+            }
+            document.getElementById("io2").onclick=function(){
+                document.getElementById("div1").style.transform="rotate(0deg)"
+                document.getElementById("div2").style.transform="rotate(0deg)"
+                document.getElementById("div3").style.transform="rotate(0deg)"
+                document.getElementById("div4").style.transform="rotate(0deg)"
+            }
+});
+</script>
+
+<script>
+
+</script>
+</head>
+
+<body id="web_bg" style="background-image:url(./image/31.png);">
+	<section>
+<!--         <button style="width:100px" id="io">2222</button>
+        <button style="width:100px" id="io2">333332</button> -->
+    </section>    
+<section align="left" id="guidetab">
+	<div align="right" style="padding-top:3%;">
+		<span class="gtab1">BUniPort</span>
+		<span class="gtab2">Admissions</span>
+		<span class="gtab3">Learning&Teaching</span>
+		<span class="gtab4">Research</span>
+		<span class="gtab5">Compus Life</span>
+		<span class="gtab6">About HKBU</span>
+		<span class="gtab7">English</span>
+		</div>
+	</div>
+</section>
+
+
+
+  <section id="acordion_box">
+
+  <section id="wiper_wrap" style="">
+  <ul id="acordion_main" style="width: 1386px; height: 546px;">
+
+	<li  data-index="0"  style="left: 0px; height: 1404px; transform: translate3d(0px, 0px, 0px) rotate(0deg); transition: -webkit-transform 1300ms cubic-bezier(0, 0, 0.25, 1); transform-origin: 550px 225px 0px;">
+	<h2  class="lose" style="width: 2000px; cursor: pointer; background-color: rgb(213, 218, 133);"><span class="guidetitle">會</span><span class="guidetitle">浸</span><span class="guidetitle">近</span><span class="guidetitle" id="shades1">走</span></h2>
+
+			<div class="single-member effect-2">
+			<div class="member-image">
+				<img src="image/member_270x210.jpg" alt="Member">
+			</div>
+			<div class="member-info">
+				<h3>Sophia</h3>
+				<h5>show</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+				<div class="social-touch">
+					<a class="fb-touch" href="#"></a>
+					<a class="tweet-touch" href="#"></a>
+					<a class="linkedin-touch" href="#"></a>
+				</div>
+			</div>
+		</div>	  
+		
+		<div >
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</li>
+
+	<li data-index="0" style="left: 0px; height: 1404px; transform: translate3d(0px, 0px, 0px) rotate(0deg); transition: -webkit-transform 1300ms cubic-bezier(0, 0, 0.25, 1); transform-origin: 550px 225px 0px;">
+	<h2 class="lose2" id="ui"; style="width: 1386px; cursor: pointer; background-color: rgb(213, 218, 133);"><span class="guidetitle">业</span><span class="guidetitle">就</span><span class="guidetitle">生</span><span class="guidetitle">招</span></h2>
+		<div class="single-member effect-2">
+			<div class="member-image">
+				<img src="image/member_270x210.jpg" alt="Member">
+			</div>
+			<div class="member-info">
+				<h3>Sophia</h3>
+				<h5>show</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+				<div class="social-touch">
+					<a class="fb-touch" href="#"></a>
+					<a class="tweet-touch" href="#"></a>
+					<a class="linkedin-touch" href="#"></a>
+				</div>
+			</div>
+		</div>	  
+		
+		<div >
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</li>
+
+	<li data-index="1" style="left: 30px;height: 1404px; transform: translate3d(0px, 0px, 0px) rotate(0deg); transition: -webkit-transform 1300ms cubic-bezier(0, 0, 0.25, 1); transform-origin: 550px 225px 0px;">
+	  <h2 style="width: 2000px; cursor: pointer; background-color: rgb(255, 0, 0);"><span class="guidetitle">学</span><span class="guidetitle">教</span><span class="guidetitle">育</span><span class="guidetitle">教</span></h2>
+		<div class="single-member effect-2">
+			<div class="member-image">
+				<img src="image/member_270x210.jpg" alt="Member">
+			</div>
+			<div class="member-info">
+				<h3>Sophia</h3>
+				<h5>show</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+				<div class="social-touch">
+					<a class="fb-touch" href="#"></a>
+					<a class="tweet-touch" href="#"></a>
+					<a class="linkedin-touch" href="#"></a>
+				</div>
+			</div>
+		</div>	  
+		
+		<div >
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</li>
+
+	<li data-index="1" class="" style="left: 30px; height: 1404px; transform: translate3d(0px, 0px, 0px) rotate(0deg); transition: -webkit-transform 1300ms cubic-bezier(0, 0, 0.25, 1); transform-origin: 550px 225px 0px;">
+	  <h2 style="width: 1386px; cursor: pointer; background-color: rgb(255, 0, 0);"><span class="guidetitle">伍</span><span class="guidetitle">队</span><span class="guidetitle">资</span><span class="guidetitle">师</span></h2>
+	  		<div class="single-member effect-2">
+			<div class="member-image">
+				<img src="image/member_270x210.jpg" alt="Member">
+			</div>
+			<div class="member-info">
+				<h3>Sophia</h3>
+				<h5>show</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+				<div class="social-touch">
+					<a class="fb-touch" href="#"></a>
+					<a class="tweet-touch" href="#"></a>
+					<a class="linkedin-touch" href="#"></a>
+				</div>
+			</div>
+		</div>	  
+		
+		<div >
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</li>
+
+	<li data-index="1" class="" style="left: 30px; height: 1404px; transform: translate3d(0px, 0px, 0px) rotate(0deg); transition: -webkit-transform 1300ms cubic-bezier(0, 0, 0.25, 1); transform-origin: 550px 225px 0px;">
+
+	  <h2 style="width: 1386px; cursor: pointer; background-color: rgb(255, 0, 0);"><span class="guidetitle">置</span><span class="guidetitle">设</span><span class="guidetitle">系</span><span class="guidetitle">院</span></h2>
+
+	  		<div class="single-member effect-2">
+			<div class="member-image">
+				<img src="image/member_270x210.jpg" alt="Member">
+			</div>
+			<div class="member-info">
+				<h3>Sophia</h3>
+				<h5>show</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+				<div class="social-touch">
+					<a class="fb-touch" href="#"></a>
+					<a class="tweet-touch" href="#"></a>
+					<a class="linkedin-touch" href="#"></a>
+				</div>
+			</div>
+		</div>	  
+		
+		<div >
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div class="single-member effect-2">
+				<div class="member-image">
+					<img src="image/member_270x210.jpg" alt="Member">
+				</div>
+				<div class="member-info">
+					<h3>Sophia</h3>
+					<h5>show</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut .</p>
+					<div class="social-touch">
+						<a class="fb-touch" href="#"></a>
+						<a class="tweet-touch" href="#"></a>
+						<a class="linkedin-touch" href="#"></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</li>
+		
+<!-- 	<li data-index="1" class="" style="left: 30px; height: 1404px; transform: translate3d(0px, 0px, 0px) rotate(0deg); transition: -webkit-transform 1300ms cubic-bezier(0, 0, 0.25, 1); transform-origin: 550px 225px 0px;">
+	  <h2 style="width: 1386px; cursor: pointer; background-color: rgb(102, 0, 102);"><span class="guidetitle">况</span><span class="guidetitle">概</span><span class="guidetitle">校</span><span class="guidetitle">学</span></h2>
+	</li>
+
+	<li data-index="1" class="" style="left: 30px; height: 1404px; transform: translate3d(0px, 0px, 0px) rotate(0deg); transition: -webkit-transform 1300ms cubic-bezier(0, 0, 0.25, 1); transform-origin: 550px 225px 0px;">
+	  <h2 style="width: 1386px; cursor: pointer;background-color: rgb(0, 0, 0);"><span class="guidetitle">闻</span><span class="guidetitle">新</span><span class="guidetitle">大</span><span class="guidetitle">浸</span></h2>
+	</li> -->
+
+  </ul></section>
+  </section>
+<section >
+        <div id="div1" class="test1" style="position: absolute;left:100%;top:40%"></div>
+        <div id="div2" class="test1" style="position: absolute;left:100%;top:48%"></div>
+        <div id="div3" class="test1" style="position: absolute;left:100%;top:56%"></div>
+        <div id="div4" class="test1" style="position: absolute;left:100%;top:64%"></div>   
+</section>
+<!-- <div style="position: absolute; background-size:cover;top:130%;width:100%;height:15%;background-image:url('./image/12.png');"></div> -->
+</body></html>
